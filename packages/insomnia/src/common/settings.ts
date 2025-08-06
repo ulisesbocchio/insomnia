@@ -156,5 +156,5 @@ export interface Settings {
   saveVaultKeyLocally: boolean;
   enableVaultInScripts: boolean;
   saveVaultKeyToOSSecretManager: boolean;
-  dataFolder: string;
+  dataFolders: string[];
 }
